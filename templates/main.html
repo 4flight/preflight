@@ -1,0 +1,17 @@
+{% extends './layout.html' %}
+    {% block title %}Home{% endblock %}
+{% block body %}
+
+<div class="container">
+    
+    <div class="row">
+        <form class= "form" action="POST">
+            <label for="fname">Search Airport data</label><br>
+            <input  type="text" id="fname" name="txtSearch" placeholder="i.e KJFK or PUJ">
+            <input  type="Submit" id ="button" name="btnSubmit">
+        </form>
+    </div>
+</div>
+    
+{% endblock %}
+      
