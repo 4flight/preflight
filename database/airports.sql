@@ -1,5 +1,6 @@
-CREATE TABLE aiports_table(
-   name    VARCHAR(57) NOT NULL PRIMARY KEY
+CREATE TABLE airports_table(
+   id      INTEGER AUTOINCREMENT PRIMARY KEY
+  ,name    VARCHAR(57) NOT NULL
   ,iata    VARCHAR(3) NOT NULL
   ,icao    VARCHAR(4) NOT NULL
   ,lat     NUMERIC(10,6) NOT NULL
